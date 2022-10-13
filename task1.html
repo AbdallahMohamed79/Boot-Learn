@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrab 5</title>
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <style>
+        body::before{
+            content: "";
+            display: block;
+            height: 60px;
+        }
+        .col-md .img-fluid{
+            margin-left: 45px;
+        }
+       .col-md .img-fluid:hover{
+        transition: 2s;
+           transform: rotatex(90deg);
+       }
+       .row .card-img-top:hover{
+           transition: 2s;
+           transform: skewy(.5turn);
+       }
+    </style>
+</head>
+<body>
+    <!--start navbar-->
+   <div class="navbar navbar-exband-md bg-dark navbar-dark text-white fixed-top">
+       <div class="container">
+           <a href="#" class="navbar-brand">bootstrab 5</a>
+           <button
+            class="navbar-toggler"
+             type="button"
+              data-bs-toggle="collapse"
+               data-bs-target="#mainmenu">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+<div class="collapse navbar-collapse" id="mainmenu">
+    <ul class="navbar-nav ms-auto bg-dark">
+        <li class="nav-item"><a href="#hero" class="nav-link">Get started</a></li>
+        <li class="nav-item "><a href="#features" class="nav-link ">Features</a></li>
+        <li class="nav-item dropdown">
+            <a href="#learn" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Learn</a>
+            <ul class="dropdown-menu">
+                <li><a href="#learn" class="dropdown-item">learn bootstrsb</a></li>
+                <li><a href="#next" class="dropdown-item">where to go next</a></li>
+            </ul>
+        </li>
+        <li class="nav-item"><a href="#faq" class="nav-link">Ask me</a></li>
+    </ul>
+</div>        
+       </div>
+   </div>
+    <!--end navbar-->
+    <!--start hero-->
+    <section id="hero" class="bg-dark text-light text-center text-sm-start py-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-center">
+                <div class="py-3">
+                    <h1 class="display-5">learn <span class="text-info">bootstrab</span></h1>
+                    <p class="py-1 lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, doloremque? </p>
+                    <button class="btn btn-info">get stasted</button>
+                </div>
+                <img class="img-fluid d-none d-sm-block w-50 " src="./img/3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+        <!--end hero-->
+        <!--start services-->
+        <section id="features" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4 ">
+                    features
+                </h2>
+                <div class="row text-center">
+                    <div class="col-sm">
+                        <div class="card bg-dark text-center text-light mb-3 " style="width: 18rem;">
+                            <img src="./img/7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-info">Responsiv</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam omnis perferendis expedita.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card bg-dark text-center text-light mb-3" style="width: 18rem;">
+                            <img src="./img/7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-info">Responsiv</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam omnis perferendis expedita.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="card bg-dark text-center text-light mb-3" style="width: 18rem;">
+                            <img src="./img/7.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title text-info">Responsiv</h5>
+                              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam omnis perferendis expedita.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+         <!--end services-->
+         <!--start learn-->
+         <section id="learn" class="py-5">
+             <div class="container">
+                 <div class="row align-items-center justify-content-center">
+                     <div class="col-md">
+                         <img src="./img/9.jpeg" alt="" class="img-fluid w-75">
+                     </div>
+                     <div class="col-md py-4">
+                         <h2>learn the basics</h2>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum id doloremque iusto sit ex corporis.
+                            Cum a tempore doloremque rerum sed mollitia,
+                            dignissimos, dolores, repudiandae molestiae iusto repellat placeat praesentium.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                 Provident perspiciatis eveniet perferendis repellat 
+                                nam incidunt neque aspernatur asperiores explicabo modi?</p>
+                        </div>
+                 </div>
+             </div>
+         </section>
+         <!--end learn-->
+         <!--start next-->
+         <section id="next" class="py-5 bg-dark text-light">
+            <div class="container">
+                <div class="row align-items-center justify-content-center flex-row-reverse">
+                    <div class="col-md">
+                        <img src="./img/10.jpeg" alt="" class="img-fluid w-75" >
+                    </div>
+                    <div class="col-md py-4">
+                        <h2>where to go next</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum id doloremque iusto sit ex corporis.
+                           Cum a tempore doloremque rerum sed mollitia,
+                           dignissimos, dolores, repudiandae molestiae iusto repellat placeat praesentium.</p>
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Provident perspiciatis eveniet perferendis repellat 
+                               nam incidunt neque aspernatur asperiores explicabo modi?</p>
+                       </div>
+                </div>
+            </div>
+        </section>
+        <!--end next-->
+        <!--start FAQ-->
+         <section id="faq" class="py-5">
+             <div class="container">
+                 <h2 class="text-center mb-3">
+                     frequently asked questions
+                 </h2>
+                 <div class="accordion">
+                    <div class="accordion accordion-flush" id="bt-faq">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="question-one">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-one" aria-expanded="false" aria-controls="flush-collapseOne">
+                                question one
+                            </button>
+                          </h2>
+                          <div id="answer-one" class="accordion-collapse collapse p-2" aria-labelledby="flush-headingOne" data-bs-parent="#bt-faq">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="question-tow">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-tow" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                questions tow
+                            </button>
+                          </h2>
+                          <div id="answer-tow" class="accordion-collapse collapse p-2" aria-labelledby="question-tow" data-bs-parent="#bt-faq">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="question-Three">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#answer-three" aria-expanded="false" aria-controls="flush-collapseThree">
+                                questions three
+                            </button>
+                          </h2>
+                          <div id="answer-three" class="accordion-collapse collapse p-2" aria-labelledby="flush-headingThree" data-bs-parent="#bt-faq">
+                            <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                          </div>
+                        </div>
+                      </div>
+                 </div>
+             </div>
+         </section>
+        <!--end FAQ-->
+        <!--start footer-->
+        <footer class="py-4 bg-dark text-white text-center position-relative">
+            <div class="container">
+                <p class="lead">
+                    copyright &copy; Abdallah
+                </p>
+                <a href="#" class="position-absolute bottim-0 end-0 py-3">
+                    <!--هنا فيه ايكون-->
+                </a>
+            </div>
+        </footer>
+        <!--end footer-->
+
+
+
+
+
+
+
+
+
+
+    <script src="./bootstrap.bundle.min.js"></script>
+</body>
+</html>
